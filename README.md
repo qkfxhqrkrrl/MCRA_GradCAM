@@ -45,7 +45,7 @@ Risk Quantification via Centroid Radial Distribution (CRD): The Centroid Radial 
 ```
 .
 ├── data
-│   ├── ais_data    # Raw AIS data used for processing (not included, placeholder)
+│   ├── geo_data    # Raw AIS data used for processing (not included, placeholder)
 │   └── stat_data   # Statiscal information describing maritime aciddent
 ├── utils
 │   └── RTR_maker.py    # Convert AIS data to RTR  
