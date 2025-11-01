@@ -6,7 +6,7 @@ This project presents a novel deep learning framework designed to assess and int
 
 The core innovation is the integration of a Convolutional Neural Network (CNN) for high-accuracy risk classification with Grad-CAM (Gradient-weighted Class Activation Mapping) for critical model interpretability.
 
-<img width=450 src="./figs/Picture1.png">
+<img style="width: 95%;" src="./figs/Picture1.png">
 
 ### Problem Statement
 
@@ -21,22 +21,22 @@ Maritime collision risk assessment is essential for ensuring safety and efficien
 <ol>
 <li>
 Data Processing and Feature Engineering: The initial step involves transforming raw AIS data into a structured input suitable for the CNN. This is achieved through the development of the Relative Traffic Representation (RTR). The RTR discretizes the regional traffic environment into a grid, capturing multi-dimensional features such as traffic density, speed vectors, and specific spatial arrangements.
-<img width=450 src="./figs/Picture2.png">
+<img style="width: 95%;" src="./figs/Picture2.png">
 </li>
 
 <li>
 CNN-Based Risk Classification: A customized Convolutional Neural Network (CNN) is trained on the RTR inputs. The network learns complex spatial and temporal correlations within the traffic features (including the CRD metrics) to robustly classify the regional state into predefined risk levels (Low risk, High risk).
-<img width=450 src="./figs/Picture3.png">
+<img style="width: 95%;" src="./figs/Picture3.png">
 </li>
 
 <li>
 Explainable AI (XAI) and Risk Influence Distribution Map (RIDM): To ensure model transparency and practical utility, we integrate Grad-CAM (Gradient-weighted Class Activation Mapping). The Grad-CAM technique uses feature gradients to generate the Risk Influence Distribution Map (RIDM). The RIDM is a real-time heatmap that visually identifies the exact spatial locations and vessel interactions that are driving the CNN's risk prediction, offering VTS operators critical insight into why a specific risk level was assigned.
-<img width=450 src="./figs/Picture4.png">
+<img style="width: 95%;" src="./figs/Picture4.png" >
 </li>
 
 <li>
 Risk Quantification via Centroid Radial Distribution (CRD): The Centroid Radial Distribution (CRD) measures the geometric dispersion of activation map. The CRD provides a quantitative metric that reflects potential collision risk.
-<img width=450 src="./figs/Picture5.png">
+<img style="width: 95%;" src="./figs/Picture5.png">
 </li>
 </ol>
 
