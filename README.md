@@ -70,3 +70,19 @@ The mmsi, timestamp, lat, lon, course is essential and the name should be matche
 Official marine accident statistics is provided by the Korean Ministry of the Interior and Safety. 
 
 ### Citation
+
+
+```
+@article{JO2026123452,
+  title = {Deep Learning Framework for Regional Maritime Collision Risk Assessment Using {{CNN}} and {{Grad-CAM}}},
+  author = {Jo, Suhyeon and Lee, Gawon and Park, Sekil and Heo, Jaehyeon and Kim, Dohee and Sim, Sunghyun and Bae, Hyerim},
+  date = {2026},
+  journaltitle = {Ocean Engineering},
+  volume = {343},
+  pages = {123452},
+  issn = {0029-8018},
+  doi = {10.1016/j.oceaneng.2025.123452},
+  url = {https://www.sciencedirect.com/science/article/pii/S0029801825031348}
+}
+
+```
