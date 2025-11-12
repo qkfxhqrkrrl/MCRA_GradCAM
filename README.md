@@ -1,4 +1,4 @@
-## Deep Learning Framework for Regional Maritime Collision Risk Assessment using CNN and Grad-CAM Models
+## Deep Learning Framework for Regional Maritime Collision Risk Assessment using CNN and Grad-CAM Models [[Paper]](https://www.sciencedirect.com/science/article/pii/S0029801825031348)
 
 ### Overview
 
